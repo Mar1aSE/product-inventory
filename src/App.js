@@ -7,7 +7,7 @@ const list = [
   {
     name: 'bread',
     price: '$4',
-    quantity: 1zz
+    quantity: 1
   },
   {
     name: 'ham',

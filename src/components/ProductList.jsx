@@ -4,9 +4,9 @@ export default function ProductList() {
 
   return (
       <div className='table'>
-        {
+        {/* {
         products.map
-        }
+        } */}
         
     <table>
   <tr>
@@ -26,6 +26,5 @@ export default function ProductList() {
   </tr>
 </table>
         </div>
-    </div>
   )
 }
