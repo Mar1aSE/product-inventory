@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import ProductList from './components/ProductList';
 
 function App() {
+
+const list = [
+  {
+    name: 'bread',
+    price: '$4',
+    quantity: 1zz
+  },
+  {
+    name: 'ham',
+    price: '$10',
+    quantity: 1
+  },
+  {
+    name: 'mayo',
+    price: '$6',
+    quantity: 1
+  }
+
+]
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+ <ProductList />
     </div>
   );
 }
